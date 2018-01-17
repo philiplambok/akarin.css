@@ -7,7 +7,7 @@ A Tiny Framework CSS Based on Flexbox.
 ## Usage
 
 Clone this repo.
-```
+```bash
 $> git clone https://github.com/philiplambok/akarin.css.git
 $> cd akarin.css/public
 $> cp akarin.css you/project/path
