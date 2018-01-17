@@ -11,6 +11,8 @@ $> cd akarin.css/public
 $> cp akarin.css you/project/path
 ```
 
+![akarii](https://78.media.tumblr.com/371a2ddc1ba3b2d847ad611a9312b7f4/tumblr_n0h2lpI7tt1t03l64o1_500.gif)
+
 Or just download from [last release](https://github.com/philiplambok/akarin.css/releases/) and place this code to your project
 
 ```html
