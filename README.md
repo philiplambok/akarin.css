@@ -46,7 +46,7 @@ Then, compile to css use command `sass app/scss/base.scss:public/akarin.css`.
 ### Layouts
 #### Grid System
 Akarin.css using 12 column for grid system.
-```
+```html
 <div class="container">
   <div class="row">
     <div class="col">1</div>
