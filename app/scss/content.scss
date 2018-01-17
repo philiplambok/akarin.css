@@ -1,0 +1,39 @@
+/**
+ * Table
+ */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid $dark-color;
+  td {
+    padding: 1%;
+    border: 1px solid $dark-color;
+  }
+  th{
+    padding: 1%;
+    border: 1px solid $dark-color;
+  }
+}
+
+/**
+ * Form
+ */
+
+label{
+  align-self: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin: 1% 0px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 1.5%;
+  border-radius: 5px;
+  border: none;
+  background-color: $white-color;
+}
