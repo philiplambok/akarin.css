@@ -242,7 +242,7 @@ For the demo, you can see [here](https://philiplambok.github.io/akarin)
 
 If you are interested to contribute to add new feature in Akarin.css, just add new branch and do pull request.
 
-```
+```bash
 $> git checkout -b my-new-feature
 $> git commit -m 'add my new feature'
 $> git push origin master
