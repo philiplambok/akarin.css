@@ -172,10 +172,23 @@
 
 .navbar {
   display: flex;
-  height: 120px;
+  min-height: 100px;
   align-items: center;
   justify-content: space-between;
-  background-color: lightgray;
+  background-color: $primary-color;
+
+  .navbar-left {
+    flex: 1;
+  }
+
+  .navbar-title {
+    flex: 2;
+  }
+
+  img{
+    height: 80px;
+    width: auto;
+  }
 
   ul {
     list-style-type: none;
@@ -185,11 +198,18 @@
   li{
     display: inline-block;
     text-align: center;
-    width: 100px;
-    height: 100%;
+    width: 200px;
+    a {
+      color: $white-color;
+      font-weight: lighter;
+      font-size: 1.5rem;
+      text-decoration: none;
+      &:hover{
+        padding-bottom: 5px;
+        border-bottom: 5px solid $white-color;
+      }
+    }
   }
-
-
 }
 
 

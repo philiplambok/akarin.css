@@ -179,4 +179,14 @@
     }
   }
 
+  .navbar {
+    flex-direction: column;
+    ul {
+      flex-direction: column;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
 }

@@ -654,7 +654,14 @@ p-4 {
     .col-md-12.col-md-offset-11,
     .col-md-12.col-md-offset-12 {
       margin: 0px;
-      padding: 0px; } }
+      padding: 0px; }
+
+  .navbar {
+    flex-direction: column; }
+    .navbar ul {
+      flex-direction: column; }
+      .navbar ul li {
+        margin-bottom: 10px; } }
 /**
  * Table
  */
@@ -817,17 +824,31 @@ label {
  */
 .navbar {
   display: flex;
-  height: 120px;
+  min-height: 100px;
   align-items: center;
   justify-content: space-between;
-  background-color: lightgray; }
+  background-color: deeppink; }
+  .navbar .navbar-left {
+    flex: 1; }
+  .navbar .navbar-title {
+    flex: 2; }
+  .navbar img {
+    height: 80px;
+    width: auto; }
   .navbar ul {
     list-style-type: none;
     display: flex; }
   .navbar li {
     display: inline-block;
     text-align: center;
-    width: 100px;
-    height: 100%; }
+    width: 200px; }
+    .navbar li a {
+      color: white;
+      font-weight: lighter;
+      font-size: 1.5rem;
+      text-decoration: none; }
+      .navbar li a:hover {
+        padding-bottom: 5px;
+        border-bottom: 5px solid white; }
 
 /*# sourceMappingURL=akarin.css.map */
