@@ -235,6 +235,7 @@ Spacing in Akarin.css exacly the same with bootsrap, you can see the documentati
 - (text/bg)-dark
 - (text/bg)-light
 
+## Live Demo
 
 For the demo, you can see [here](https://philiplambok.github.io/akarin)
 
