@@ -1,8 +1,8 @@
 # Akarin.css
 
-A Tiny Framework CSS Based on Flexbox.
-
 ![akarii](https://78.media.tumblr.com/371a2ddc1ba3b2d847ad611a9312b7f4/tumblr_n0h2lpI7tt1t03l64o1_500.gif)
+
+A Tiny Framework CSS Based on Flexbox.
 
 ## Usage
 
