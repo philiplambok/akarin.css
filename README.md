@@ -43,6 +43,19 @@ Then, compile to css use command `sass app/scss/base.scss:public/akarin.css`.
 
 Documentation and the demo you can see in [here](https://philiplambok.github.io/akarin.html)
 
+## Contributed
+
+If you are interested to contribute to add new feature in Akarin.css, just add new branch and do pull request.
+
+```
+$> git checkout -b my-new-feature
+$> git commit -m 'add my new feature'
+$> git push origin master
+```
+
+## Issues
+
+If your found any bug in Akarin.css, please add issues in [here](https://github.com/philiplambok/akarin.css/issues)
 
 ## License
 
