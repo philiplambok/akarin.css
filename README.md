@@ -44,6 +44,7 @@ Then, compile to css use command `sass app/scss/base.scss:public/akarin.css`.
 ## Documentation
 
 ### Layouts
+#### Grid System
 Akarin.css using 12 column for grid system.
 ```
 <div class="container">
@@ -91,7 +92,7 @@ Grid system with costum column.
 You also posible to use offset and margin style.
 
 ### Content
-Table :
+#### Table
 ```html
 <table class="table">
   <thead>
@@ -116,7 +117,7 @@ Table :
 </table>
 ```
 
-Form :
+#### Form
 ```html
 <div class="form-group row">
   <div class="col-md-2">
@@ -141,7 +142,7 @@ Form :
 </div>
 ```
 
-Button :
+#### Button
 ```html
 <button class="btn btn-primary">primary</button>
 <button class="btn btn-secondary">secondary</button>
@@ -152,14 +153,14 @@ Button :
 <button class="btn btn-light">light</button>
 ```
 
-Alert :
+#### Alert
 ```html
 <div class="alert alert-secondary">
   <p> Alert Content Here.. </p>
 </div>
 ```
 
-Card :
+#### Card
 ```html
 <div class="card">
   <img src="https://78.media.tumblr.com/371a2ddc1ba3b2d847ad611a9312b7f4/tumblr_n0h2lpI7tt1t03l64o1_500.gif" class="img-fluid">
@@ -172,14 +173,14 @@ Card :
 </div>
 ```
 
-Jumbotron :
+#### Jumbotron
 ```html
 <div class="jumbotron bg-success text-white">
   <h2 class="display-2">Ini Heading di Jumbotron</h2>
 </div>
 ```
 
-Navbar :
+#### Navbar
 ```html
 <div class="container-fluid">
   <div class="row">
@@ -207,7 +208,7 @@ Navbar :
 ### Utilities
 Spacing in Akarin.css exacly the same with bootsrap, you can see the documentation in [here](https://getbootstrap.com/docs/4.0/utilities/spacing/).
 
-Images :
+#### Image
 ```html
 <img src="img-fluid" alt="image description here">
 <img src="width-fluid" alt="image description here">
@@ -216,7 +217,7 @@ Images :
 
 `.img-fluid` and `.width-fluid` if width images is larger than the height, otherwise `.height-fluid`.
 
-Text :
+#### Text
 ```html
 <p class="text-left"></p>
 <p class="text-center"></p>
@@ -224,7 +225,7 @@ Text :
 <p class="text-justify"></p>
 ```
 
-Colors: (text/background)
+##### Colors (text/background)
 - (text/bg)-primary
 - (text/bg)-secondary
 - (text/bg)-success
