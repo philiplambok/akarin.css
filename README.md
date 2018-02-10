@@ -34,7 +34,7 @@ $success-color: #19cf86;
 $warning-color: #fab81e;
 $danger-color: #e81c4f;
 $info-color: #1b95e0;
-$dark-color:#1d2124;
+$dark-color:#333;
 $light-color: #e6ecf0;
 $white-color: white;
 ```
